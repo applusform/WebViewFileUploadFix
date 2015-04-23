@@ -7,6 +7,8 @@ Screen shot :
 ### What it does ?
 Fixes the issue that &lt;input type="file"&gt; does not work on Android 4.4.2 by using Agate Java Script Plugin.
 
+It does not need any modication of sever web page.
+
 ### Notice
 - This is a sample plugin for very simple cases. It does not cover every case.
 - Maybe some modifications will be needed to use this plugin to your site.
