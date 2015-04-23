@@ -5,7 +5,7 @@ Screen shot :
 ![Screen shot](https://applusform.github.io/WebViewFileUploadFix/screenshot1.png)
 
 ### What it does ?
-Fixes the issue that <input type="file"> does not work on Android 4.4.2 by using Agate Java Script Plugin.
+Fixes the issue that &lt;input type="file"&gt; does not work on Android 4.4.2 by using Agate Java Script Plugin.
 
 ### Notice
 - This is a sample plugin for very simple cases. It does not cover every case.
@@ -13,7 +13,7 @@ Fixes the issue that <input type="file"> does not work on Android 4.4.2 by using
 
 ### How it does ?
 1. First it checks Android OS version. It works for only 4.4, 4.4.1, 4.4.2. The others does not need this plugin.
-2. It hides every &lt;input type="file"&gt; tag and insert custom button.
+2. It hides every &lt;input type="file"&gt; tag and insert custom upload button.
 3. It hooks HTML "FORM.submit()" function and uses native post method of MOML http object.
 
 See [assets/moml/ui/androidFileUploadFix-1.1.0.js](https://github.com/applusform/WebViewFileUploadFix/blob/gh-pages/assets/moml/ui/androidFileUploadFix-1.1.0.js) for detail.
