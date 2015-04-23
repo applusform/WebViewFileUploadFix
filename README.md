@@ -16,6 +16,8 @@ Fixes the issue that <input type="file"> does not work on Android 4.4.2 by using
 2. It hides every <input type="file"> tag and insert custom button.
 3. It hooks HTML "FORM.submit()" function and uses native post method of MOML http object.
 
+See [assets/moml/ui/androidFileUploadFix-1.1.0.js](https://github.com/applusform/WebViewFileUploadFix/blob/gh-pages/assets/moml/ui/androidFileUploadFix-1.1.0.js) for detail.
+
 ### How can I test my URL ?
 1. Open "assets/moml/ui/webView.xml" file.
 2. Find AGATEWEBVIEW.src attribute and replace "index.htm" value to your URL.
