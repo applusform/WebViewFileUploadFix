@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Created by MoSPI.org on 9.20.2012
+
+	Permission is granted to copy, distribute, modify under the terms of Citrine License.
+
+	Copyright (C) MoSPI.org. All rights reserved.
+-->
+<OBJECTS>
+    <!-- 
+    <OBJECT objName="appLauncher" jsName="agate_appLauncher"/>
+    <OBJECT objName="application" jsName="agate_application"/>
+    <OBJECT objName="db" jsName="agate_db"/>
+    <OBJECT objName="db.result" jsName="agate_db_result"/>
+    <OBJECT objName="device.accelerometer" jsName="agate_accelerometer"/>
+    <OBJECT objName="device.compass" jsName="agate_compass"/>
+    <OBJECT objName="device.gps" jsName="agate_gps"/>
+    <OBJECT objName="device.network" jsName="agate_network"/>
+    <OBJECT objName="device.os" jsName="agate_os"/>
+    <OBJECT objName="device.contact" jsName="agate_contact"/>
+    <OBJECT objName="device.screen" jsName="agate_screen"/>
+    <OBJECT objName="device.vibrator" jsName="agate_vibrator"/>
+    <OBJECT objName="device.beep" jsName="agate_beep"/>
+    <OBJECT objName="sound" jsName="agate_sound"/>  
+    <OBJECT objName="device" jsName="agate_device"/>
+    <OBJECT objName="file" jsName="agate_file"/>
+    <OBJECT objName="recorder" jsName="agate_recorder"/>
+    -->
+</OBJECTS>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Created by MoSPI.org on 10.24.2012
+
+	Permission is granted to copy, distribute, modify under the terms of Citrine License.
+
+	Copyright (C) MoSPI.org. All rights reserved.
+-->
+<MOML version="1.0.0">
+	<URISCHEMES>
+		<!-- market://details?id=com.twitter.android -->
+		<!-- itms-apps://itunes.com/apps/twitterinc/twitter -->
+		<URISCHEME scheme="twitter" name="Twitter" androidPackageName="com.twitter.android" iTunesAppPath="twitterinc/twitter"/>
+		<URISCHEME scheme="fb" name="Facebook" androidPackageName="com.facebook.katana" iTunesAppPath="facebookinc/facebook"/>
+		<URISCHEME scheme="geo" androidName="Goggle Maps" androidPackageName="com.google.android.apps.maps" iTunesName="Google Earth" iTunesAppPath="googleinc/googleearth"/>
+		<URISCHEME scheme="comgooglemaps" name="Goggle Maps" iTunesAppPath="googleinc/googlemaps"/>
+		<URISCHEME scheme="comgoogleearth" name="Goggle Earth" androidPackageName="com.google.earth" iTunesAppPath="googleinc/googleearth"/>
+	</URISCHEMES>
+</MOML>

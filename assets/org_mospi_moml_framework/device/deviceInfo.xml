@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Created by MoSPI.org on 11.14.2011
+
+	Permission is granted to copy, distribute, modify under the terms of Citrine License.
+
+	Copyright (C) MoSPI.org. All rights reserved.
+-->
+<MOML version="1.0.0">
+	<DEVICEINFO>
+		<DEVICE model="SHV-E160K" orientationChangedEffect="rotate" dpiType="real" screenSize="72,115"/>
+		<DEVICE model="SHV-E160L" orientationChangedEffect="rotate" dpiType="real" screenSize="72,115"/>
+		<DEVICE model="SHV-E160S" orientationChangedEffect="rotate" dpiType="real" screenSize="72,115"/>
+		<DEVICE model="LG-SU660" dpiType="real" screenSize="52,87"/>
+	</DEVICEINFO>
+</MOML>

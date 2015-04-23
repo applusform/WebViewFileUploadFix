@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Created by ApplusForm.com on 2013.8.6
+
+	Permission is granted to copy, distribute, modify under the terms of ApplusForm License.
+
+	Copyright (C) 2013 ApplusForm.com All rights reserved.
+-->
+<MOML>
+	<APPLICATIONINFO>
+		<START url="ui/webView.xml" /> 
+		<ORIENTATION type="defaultPortrait" />
+	</APPLICATIONINFO>
+</MOML>
+

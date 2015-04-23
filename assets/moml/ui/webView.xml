@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Created by ApplusForm.com on 2014.3.26
+
+	Permission is granted to copy, distribute, modify under the terms of ApplusForm License.
+
+	Copyright (C) 2014 ApplusForm.com. All rights reserved.
+-->
+<MOML version="1.1.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.applusform.com/xsd/moml_ui.xsd">
+	<UILAYOUT portrait="720,1230" landscape="720,1230">
+		<AGATEWEBVIEW id="webView" layout="0,0,720,1230"
+					src="chooseTestPage.htm" 
+					controls="none" supportZoom="true">
+			<LINKMAP>
+				<!-- prevent web page blinking. -->
+				<LINK url="*" delay="1"/>
+				<LINK url="*" jsPlugin="androidFileUploadFix-1.1.0.js"/>
+				<LINK url="http://www.posttestserver.com/data/*" jsPlugin="autoLink.js"/>
+				<LINK url="http://www.posttestserver.com/post.php*" jsPlugin="autoLink.js"/>
+			</LINKMAP>
+		</AGATEWEBVIEW>
+	</UILAYOUT>
+</MOML>

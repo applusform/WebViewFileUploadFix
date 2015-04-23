@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MOMLView">
+        <attr name="applicationInfo" format="string" />
+        <attr name="startUrl" format="string" />
+    </declare-styleable>
+
+</resources>

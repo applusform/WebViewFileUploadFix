@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Created by MoSPI.org on 11.14.2011
+
+	Permission is granted to copy, distribute, modify under the terms of Citrine License.
+
+	Copyright (C) MoSPI.org. All rights reserved.
+-->
+<MOML version="1.0.0">
+	<THEME element="LABEL" textColor="#000000"/>
+</MOML>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Created by MoSPI.org on 11.14.2011
+
+	Permission is granted to copy, distribute, modify under the terms of Citrine License.
+
+	Copyright (C) MoSPI.org. All rights reserved.
+-->
+<MOML version="1.0.0">
+	<THEME id="IOS" defaultImg="#0000ff" selectedImg="#ff0000" fontSize="18" textColor="#ffffff"/>
+	<THEME id="ANDROID" width="480" height="auto"/>
+	<THEME id="text_style" fontSize="20" textColor="#0000ff"/>
+</MOML>

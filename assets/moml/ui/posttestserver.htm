@@ -1,0 +1,62 @@
+﻿<!DOCTYPE HTML >
+<html>
+<head>
+	<title>File upload test</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+		charset="utf-8" />
+	<script type="text/javascript">
+		function checkText(e) {
+			if (form2.text2.value == "") {
+				alert("input text");
+				e.preventDefault();
+				return false;
+			}
+		}
+		function updateImg(input, previewImgId) {
+			try {
+				if (input.files && input.files[0]) {
+					var file = input.files[0];
+					var reader = new FileReader();
+					reader.onload = function (e) {
+						var img = document.getElementById(previewImgId);
+						//alert(e.target.result);
+						var dataurl = e.target.result;
+						dataurl = "data:image/" + file.name.split('.').slice(-1)[0] + ";base64," + dataurl.split(',')[1];
+						//alert(dataurl);
+						img.src = dataurl;
+					};
+					reader.readAsDataURL(input.files[0]);
+				}
+			} catch (e) {
+				alert(e);
+			}
+		}
+	</script>
+</head>
+<body>
+	<p>
+		* test file submit:
+	</p>
+	<form id="form1" method="POST" enctype="multipart/form-data" action="http://www.posttestserver.com/post.php?dir=testWebViewFileUpload">
+	Text :
+	<input id="text1" type="text" name="testName" value="sample text" /><br />
+	Image file to upload:
+	<input id="file1" type="file" name="uploadfile" accept="image/*" onchange="updateImg(this, 'img1')"/><br />
+	<img id="img1" alt="uploaded image" src="" width="100px" height="100px" />
+	<input type="submit" value="submit !" />
+	</form>
+	<br />
+	<p>
+		* test file submit with onsubmit:</p>
+	<form id="form2" method="POST" enctype="multipart/form-data" action="http://www.posttestserver.com/post.php?dir=testWebViewFileUpload&cbp=1sg6y01yofi7g"
+	onSubmit="checkText(event)">
+	Text :
+	<input id="text2" name="testName" type="text" value="sample text" /><br />
+	Image file to upload:
+	<input id="file2" type="file" name="uploadfile" onchange="updateImg(this, 'img2')" /><br />
+	<img id="img2" alt="uploaded image" src="" width="100px" height="100px" />
+	<input type="submit" value="submit !" />
+	</form>
+</body>
+</html>

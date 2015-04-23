@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="org_mospi_moml_framework_hello">Hello World, CITRINE!</string>
+    <string name="org_mospi_moml_framework_app_name">CITRINE</string>
+    
+    <!-- AutoUpdate START -->
+    <!-- popup -->
+    <string name="org_mospi_moml_framework_yes">Yes</string>
+    <string name="org_mospi_moml_framework_no">No</string>
+    
+    <string name="org_mospi_moml_framework_all_update">All update</string>
+    <string name="org_mospi_moml_framework_title_confirm_all_update">All update confirm</string>
+    
+    <string name="org_mospi_moml_framework_notice_all_update">The version of APK is changed.\nDo you want to update?</string>
+    <string name="org_mospi_moml_framework_notice_confirm_all_update">continue?</string>
+    
+    <string name="org_mospi_moml_framework_res_analyze">Analyzing...</string>
+    <string name="org_mospi_moml_framework_res_updating">Updating resource...</string>
+    <string name="org_mospi_moml_framework_res_setting">Installing...</string>
+    
+    <string name="org_mospi_moml_framework_all_updating">Process all update.</string>
+    <string name="org_mospi_moml_framework_cancel_all_update">canceled.</string>
+    <string name="org_mospi_moml_framework_complete_update">update completed.</string>
+    
+    <string name="org_mospi_moml_framework_percent_update">%s %</string>
+    <!-- AutoUpdate END -->
+    
+    <!-- Quit START -->
+    <string name="org_mospi_moml_framework_quit_title">알림</string>
+    <string name="org_mospi_moml_framework_quit_msg">프로그램을 종료하시겠습니까?</string>
+    <string name="org_mospi_moml_framework_quit_yes">확인</string>
+    <string name="org_mospi_moml_framework_quit_no">취소</string>
+    <!-- Quit END -->
+    
+    <!-- List START -->
+    <string name="org_mospi_moml_framework_list_loading_msg">Loading ..</string>
+    <!-- List END -->
+</resources>
